@@ -1,0 +1,147 @@
+body
+		{
+			background-color:#8AEFC9;
+			height: 1050px;
+			overflow: hidden;
+			
+
+		}
+		.main
+		{
+			width:1050px;
+			height: 660px;
+			margin:0px auto 0px auto;
+			background: #C9EFE1;
+			padding: 150px;
+			box-sizing: border-box;
+			text-align: center;
+			overflow: hidden;
+			border-radius: 7px;
+			border-left:50px solid #254736;
+			border-right:50px solid #254736;
+			
+		}
+
+		h1
+		{
+			font-family: arial;
+			font-size: 80px;
+			font-weight: 100;
+			text-shadow: 1px 1px 2px;
+			font-kerning: auto;
+			color:darkcyan;
+
+
+
+
+
+		}
+		.one
+		{
+			animation: first 2s linear;
+		}
+
+		@keyframes first{
+			0%{transform: scale(1);}
+			100%{transform: scale(1.5);}
+		}
+
+
+		.two
+		{
+			animation:second 5s linear;
+		}
+
+		@keyframes second
+		{
+			0%{color:deepskyblue;}
+			50%{color:forestgreen}
+			100%{color:firebrick;}
+		}
+		
+		.three
+		{
+			animation:third 5s linear;
+		}
+		
+		@keyframes third
+		{
+			0%{transform: rotate(0deg);}
+			100%{transform: rotate(360deg);}
+		}
+
+		.four
+		{
+			animation:fourth 5s linear;
+		}
+		
+		@keyframes fourth
+		{
+			0%{transform: skewX(1deg);}
+			100%{transform: skewX(12deg);}
+		}
+		
+		.five
+		{
+			animation:fifth 5s linear;
+		}
+		
+		@keyframes fifth
+		{
+			0%{position:relative;left:0px;}
+			100%{position:relative;left:450px;}
+		}
+		
+		.six
+		{
+			animation:sixth 5s linear;
+		}
+		
+		@keyframes sixth
+		{
+				0%{position:relative;top:0px;}
+			100%{position:relative;top:-450px;}
+		}
+		
+		.seven
+		{
+			animation:seventh 5s linear;
+		}
+		
+		@keyframes seventh
+		{
+				0%{text-shadow: 1px 1px 3px;}
+			100%{text-shadow:3px 3px 20px;}
+		}
+		
+
+		
+		
+		
+		
+		
+		
+		#student
+		{
+			text-align: center;
+			height:30px;
+			width:200px;
+			background: white;
+			border: 0px;
+			color:darkcyan;
+			font-size: 15px;
+			padding-left: 50px;
+			margin-top: -25px;
+			border-radius: 6px;
+		}
+		
+		#student:focus
+		{
+			background:#9BE5B2;
+			border: 0px;
+		}
+		
+		#student:hover
+		{
+			background: #7CE09C;
+		}
